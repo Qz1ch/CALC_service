@@ -19,7 +19,7 @@ git clone https://github.com/your-username/calc_service.git
 ```
 ## 2.Перейдите в папку проекта и запустите сервер:
 ```
-go run ./cmd/calc_service/...
+go run ./cmd/main.go
 ```
 ## 3.Сервис будет доступен по адресу: http://localhost:8080/api/v1/calculate.
 
