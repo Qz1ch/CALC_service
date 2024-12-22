@@ -80,7 +80,7 @@ curl --location 'localhost:8080/api/v1/calculate' \
 # Пример использования с cURL:
 cURL команда                                   | Ответ                                     | HTTP код
 |------------------------------------------------|-------------------------------------------| ----------------------------- |
-| ```curl -XPOST -d '{ "expression" : "2 + 2*2"}' 'http://localhost:8080/api/v1/calculate'```  | ```{"result":6} ``` | 200 |
+| ```curl -XPOST -d '{ "expression" : "2+2*2"}' 'http://localhost:8080/api/v1/calculate'```  | ```{"result":6} ``` | 200 |
 | ```curl -XPOST -d '{ "expression" : "1-"}' 'http://localhost:8080/api/v1/calculate'``` | ```{"error":"invalid expression"}```|422|
 | ```curl -XGET -d '{ "expression" : "2 -2"}```' 'http://localhost:8080/api/v1/calculate' | ```{"error":"Invalid request method"} ```|405|
 | ```curl -XPOST -d '{ "expression" : "1-1"'``` 'http://localhost:8080/api/v1/calculate' | ```{"error":"invalid request body"}```|400|
