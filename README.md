@@ -59,7 +59,7 @@ curl --location 'localhost:8080/api/v1/calculate' \
   "expression": "2+2*2"
 }'
 ```
-## Ошибка 422(невалидный запрос):
+## Ошибка 422(необрабатываемый объект):
 ```
 curl --location 'localhost:8080/api/v1/calculate' \
 --header 'Content-Type: application/json' \
