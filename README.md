@@ -15,7 +15,7 @@ ___
 ## _Запуск сервера_
 ## 1. Скопируйте проект с GitHub:
 ```
-git clone https://github.com/your-username/calc_service.git
+git clone https://github.com/Qz1ch/calc_service.git
 ```
 ## 2.Перейдите в папку проекта и запустите сервер:
 ```
